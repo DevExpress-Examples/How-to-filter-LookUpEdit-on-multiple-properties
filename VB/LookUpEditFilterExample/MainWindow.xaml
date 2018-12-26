@@ -1,16 +1,15 @@
-<dx:DXWindow
-    x:Class="LookUpEditFilterExample.MainWindow"
-    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core"
-    xmlns:dxb="http://schemas.devexpress.com/winfx/2008/xaml/bars"
-    xmlns:Views="clr-namespace:LookUpEditFilterExample.Views"
-    Width="526.759"
-    Height="96.734"
-    Title="MainWindow">
+<dx:ThemedWindow x:Class="LookUpEditFilterExample.MainWindow"
+                 xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                 xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                 xmlns:Views="clr-namespace:LookUpEditFilterExample.Views"
+                 xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core"
+                 Title="MainWindow"
+                 Width="500"
+                 Height="100"
+                 SizeToContent="Height">
 
     <Grid>
         <Views:MainView />
     </Grid>
 
-</dx:DXWindow>
+</dx:ThemedWindow>
