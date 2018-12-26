@@ -1,11 +1,8 @@
 ﻿Imports DevExpress.Xpf.Core
 
 Namespace LookUpEditFilterExample
-    ''' <summary>
-    ''' Interaction logic for MainWindow.xaml
-    ''' </summary>
     Partial Public Class MainWindow
-        Inherits DXWindow
+        Inherits ThemedWindow
 
         Public Sub New()
             InitializeComponent()
